@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aman S. — Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="assets/fonts.css" rel="stylesheet">
 <style>
   :root {
     --bg: #ffffff;
@@ -26,7 +26,7 @@
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     color: var(--text);
     overflow-x: hidden;
-    cursor: auto;
+    cursor: none; /* use custom cursor */
   }
 
   .cursor,
@@ -197,20 +197,240 @@
   </ul>
 </nav>
 
-<!-- Full page content copied from the original file; only the resume link is a relative filename now -->
+<!-- Full page content restored from saved local copy with relative links -->
+
+<section class="hero" id="home">
+  <div class="blur blur1"></div>
+  <div class="blur blur2"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">B.E. Graduate · Open to Opportunities</div>
+    <h1 class="hero-name">Aman S</h1>
+    <p class="hero-subtitle">Software Developer &amp; Cybersecurity Enthusiast</p>
+    <p class="hero-desc">
+      Information Science &amp; Engineering graduate from Sahyadri College of Engineering and Management, Mangaluru.
+      Focused on building web applications, data analytics, and security systems.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">View My Work →</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ABOUT, SKILLS, EXPERIENCE, PROJECTS, EDUCATION, CONTACT sections follow -->
+
+<section id="about">
+  <div class="section-label">01 — About</div>
+  <h2 class="section-title">Who I Am</h2>
+  <div class="about-grid reveal visible">
+    <div class="about-text">
+      <p>I'm <strong>Aman S.</strong>, a graduate in <strong>Information Science &amp; Engineering</strong> from Sahyadri College of Engineering and Management, Mangaluru .</p>
+      <p>My interest lies at the intersection of <strong>web development</strong> and <strong>cybersecurity</strong>. I've built real-world applications ranging from vehicle rental systems to farmer-consumer platforms, and gained hands-on security monitoring experience at RDL Technologies.</p>
+      <p>I value clean architecture, structured data, and intuitive interfaces — and I'm constantly learning to sharpen each of those.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-box">
+        <span class="stat-num">8.28</span>
+        <span class="stat-desc">Final CGPA</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">3+</span>
+        <span class="stat-desc">Projects Built</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">1</span>
+        <span class="stat-desc">Industry Internship</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">2026</span>
+        <span class="stat-desc">B.E. Graduate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="section-label">02 — Skills</div>
+  <h2 class="section-title">What I Work With</h2>
+  <div class="skills-container reveal visible">
+    <div>
+      <div class="skill-cat-title">Languages</div>
+      <div class="skill-pills">
+        <div class="skill-pill">Java</div>
+        <div class="skill-pill">C</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">HTML5</div>
+        <div class="skill-pill">CSS3</div>
+        <div class="skill-pill">JavaScript</div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-cat-title">Frameworks &amp; Tools</div>
+      <div class="skill-pills">
+        <div class="skill-pill">Node.js / Express</div>
+        <div class="skill-pill">Next.js</div>
+        <div class="skill-pill">Flask</div>
+        <div class="skill-pill">Pandas</div>
+        <div class="skill-pill">VS Code</div>
+        <div class="skill-pill">Git / GitHub</div>
+        <div class="skill-pill">Jupyter Notebook</div>
+        <div class="skill-pill">Canva</div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-cat-title">Databases &amp; Cloud</div>
+      <div class="skill-pills">
+        <div class="skill-pill">MySQL</div>
+        <div class="skill-pill">MongoDB</div>
+        <div class="skill-pill">Microsoft Azure</div>
+      </div>
+    </div>
+    <div>
+      <div class="skill-cat-title">Soft Skills</div>
+      <div class="skill-pills">
+        <div class="skill-pill">Problem Solving</div>
+        <div class="skill-pill">Learning Agility</div>
+        <div class="skill-pill">Adaptability</div>
+        <div class="skill-pill">Team Collaboration</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="section-label">03 — Experience</div>
+  <h2 class="section-title">Where I've Worked</h2>
+  <div class="exp-card reveal visible">
+    <div class="exp-header">
+      <div>
+        <div class="exp-role">Cyber Security Intern</div>
+        <div class="exp-company">RDL Technologies Pvt. Ltd.</div>
+      </div>
+      <div class="exp-badge">Internship</div>
+    </div>
+    <p class="exp-desc">
+      Developed a Root Cause Analyzer system for centralized log monitoring, incident detection, and security analysis.
+      Designed a pipeline to collect logs from multiple devices and servers, analyzing abnormal events to detect unauthorized access,
+      network failures, and application issues. Applied correlation logic and fault tree analysis to identify root causes.
+      Built an interactive real-time dashboard for incident management, reporting, and alert visualization.
+    </p>
+    <div class="exp-tools">
+      <span class="exp-tool">Python</span>
+      <span class="exp-tool">Flask</span>
+      <span class="exp-tool">Pandas</span>
+      <span class="exp-tool">JavaScript</span>
+      <span class="exp-tool">CSS3</span>
+      <span class="exp-tool">Windows Event Logs</span>
+      <span class="exp-tool">CSV / Log Files</span>
+    </div>
+    <div class="project-links" style="margin-top:20px;">
+      <a href="https://github.com/AmanAnchan/Root_Cause.git" class="project-link" target="_blank">→ Root Cause Analyzer GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-label">04 — Projects</div>
+  <h2 class="section-title">Things I've Built</h2>
+  <div class="projects-grid">
+    <div class="project-card reveal visible">
+      <div class="project-number">01</div>
+      <div class="project-title">Vehicle Rental System</div>
+      <p class="project-desc">
+        A DBMS-based web application to manage vehicle rentals. Users can book vehicles while admins manage listings.
+        Features a structured relational schema with user and admin modules for seamless rental operations.
+      </p>
+      <div class="project-tools">
+        <span class="project-tool">HTML5</span>
+        <span class="project-tool">CSS3</span>
+        <span class="project-tool">JavaScript</span>
+        <span class="project-tool">Node.js</span>
+        <span class="project-tool">Express</span>
+        <span class="project-tool">MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/AmanAnchan/Vehicle-Rental-System.git" class="project-link" target="_blank">→ GitHub</a>
+      </div>
+    </div>
+    <div class="project-card reveal visible">
+      <div class="project-number">02</div>
+      <div class="project-title">College Data Entry Portal</div>
+      <p class="project-desc">
+        A role-based internal portal to streamline academic and institutional data management. Supports department and program setup,
+        with secure multi-role access, clean UI, and structured data flow across administrative workflows.
+      </p>
+      <div class="project-tools">
+        <span class="project-tool">Next.js</span>
+        <span class="project-tool">HTML</span>
+        <span class="project-tool">CSS</span>
+        <span class="project-tool">MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/AmanAnchan/Student-and-Faculty-Activity-Tracking-Portal.git" class="project-link" target="_blank">→ GitHub</a>
+      </div>
+    </div>
+    <div class="project-card reveal visible">
+      <div class="project-number">03</div>
+      <div class="project-title">AGRI-MART</div>
+      <p class="project-desc">
+        A platform that directly connects farmers with consumers, eliminating middlemen. Supports fair pricing for farmers
+        while giving consumers access to fresh, quality farm produce.
+      </p>
+      <div class="project-tools">
+        <span class="project-tool">HTML5</span>
+        <span class="project-tool">CSS3</span>
+        <span class="project-tool">JavaScript</span>
+        <span class="project-tool">MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/AmanAnchan/Agri_mart.git" class="project-link" target="_blank">→ GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="section-label">05 — Education</div>
+  <h2 class="section-title">Academic Journey</h2>
+  <div class="edu-timeline reveal visible">
+    <div class="edu-item">
+      <div class="edu-year">2022 — 2026</div>
+      <div class="edu-name">Bachelor of Engineering</div>
+      <div class="edu-inst">Information Science &amp; Engineering<br>Sahyadri College of Engineering and Management, Mangaluru</div>
+      <div class="edu-score">CGPA: 8.28</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-year">2022</div>
+      <div class="edu-name">PU — Science &amp; Commerce</div>
+      <div class="edu-inst">Shri BGS Science and Commerce PU College, Balehonnur</div>
+      <div class="edu-score">82%</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-year">2020</div>
+      <div class="edu-name">High School (SSLC)</div>
+      <div class="edu-inst">Shri BGS English Medium High School, Balehonnur</div>
+      <div class="edu-score">81.76%</div>
+    </div>
+  </div>
+</section>
 
 <section id="contact">
-  <div class="contact-inner reveal">
+  <div class="contact-inner reveal visible">
     <div class="section-label">06 — Contact</div>
     <div class="contact-big">Let's <em>Connect</em></div>
-    <a href="Aman_Anchan_resumee.pdf" download class="resume-btn">📥 Download Resume</a>
+    <a href="Aman_Anchan_resumee.pdf" class="resume-btn">📥 Download Resume</a>
     <p class="contact-sub">
       Open to full-time roles, freelance projects, and interesting collaborations.<br>
       Drop me a message and I'll get back to you.
     </p>
     <div class="contact-links">
       <a href="mailto:aman.s.anchan2004@gmail.com" class="contact-link">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 7L2 7"></path></svg>
         aman.s.anchan2004@gmail.com
       </a>
       <a href="https://linkedin.com/in/aman-s-anchan-a3462226a" class="contact-link" target="_blank">
@@ -229,7 +449,43 @@
 </footer>
 
 <script>
-  // Original scripts preserved where necessary (custom cursor, reveal observer, etc.).
+  // Custom Cursor
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = mx + 'px'; cursor.style.top = my + 'px';
+  });
+  (function animRing() {
+    rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12;
+    ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+    requestAnimationFrame(animRing);
+  })();
+  document.querySelectorAll('a, .skill-pill, .project-link, .resume-btn').forEach(el => {
+    el.addEventListener('mouseenter', () => { ring.style.width = '54px'; ring.style.height = '54px'; ring.style.opacity = '0.5'; });
+    el.addEventListener('mouseleave', () => { ring.style.width = '34px'; ring.style.height = '34px'; ring.style.opacity = '0.3'; });
+  });
+
+  // Navbar Scroll Effect
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Intersection Observer for Reveals
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => { if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  // Active Navigation Link
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let cur = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+    navLinks.forEach(a => { a.classList.toggle('active', a.getAttribute('href') === '#' + cur); });
+  });
 </script>
 </body>
 </html>
